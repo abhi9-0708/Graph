@@ -116,12 +116,12 @@ public class isCycle {
          graph[4].add(new Edge(4,2,2));
          graph[4].add(new Edge(4,1,1));
 
-        //  if(isCYcle(graph)){
-        //     System.out.println("graph is cyclic");
+         if(isCYcle(graph)){
+             System.out.println("graph is cyclic");
 
-        //  }else {
-        //     System.out.println("Graph is not cyclic");
-        //  }
+         }else {
+             System.out.println("Graph is not cyclic");
+          }
         topologicalSort(graph);
     }
     
