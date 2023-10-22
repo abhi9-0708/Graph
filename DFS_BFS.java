@@ -9,7 +9,7 @@ class Edge{
         this.wt=w;
     }
 }
-public class Creategraph{
+public class DFS_BFS{
     //O(V+E)
     public static void bfs(ArrayList<Edge>graph[]){
         Queue<Integer>q=new LinkedList<>();
